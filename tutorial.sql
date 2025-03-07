@@ -22,4 +22,20 @@ values (3, "Klaus", "Huber"),
         (6, "Günther", "Meier");
 */
 
+# drop table benutzer;
+
+/* create table benutzer(
+	id int auto_increment primary key,
+    vorname varchar (30),
+    nachname varchar (30) ); */
+
+/* insert into benutzer (vorname, nachname)
+values ("Herbert", "Grönemeier"),
+		("Klaus", "Huber"),
+		("Peter", "Ludolf"),
+        ("Janek", "Prurin"),
+        ("Günther", "Meier"); */
+        
+# update benutzer set vorname = "Laura" where id = 2;
+
 select * from benutzer;
