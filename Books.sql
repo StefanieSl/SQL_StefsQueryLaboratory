@@ -1,4 +1,4 @@
-CREATE DATABASE books;
+/* CREATE DATABASE books;
 
 CREATE TABLE Books (
 	BuchID int NOT NULL AUTO_INCREMENT,
@@ -24,5 +24,6 @@ VALUES
 ("Safe", 'S.K. Barnett', 'Thriller', 3.9, 4.0),
 ("We Used to Live Here", 'Marcus Kliewer', 'Horror', 3.71, 5.0),
 ("What the Woods Took", 'Courtney Gould', 'Horror', 3.91, 3.0);
+*/
 
 SELECT * FROM Books;
